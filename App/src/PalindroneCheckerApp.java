@@ -1,10 +1,14 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 import java.util.Stack;
 
+=======
+>>>>>>> e9ac9b3290b8db18144521961bdc4c12bd6b1616
 public class PalindroneCheckerApp {
 
     public static void main(String[] args) {
 
+<<<<<<< HEAD
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a string: ");
@@ -31,5 +35,24 @@ public class PalindroneCheckerApp {
         }
 
         sc.close();
+=======
+        // Original string
+        String original = "madam";
+
+        // Reversed string
+        String reverse = "";
+
+        // Reverse using for loop
+        for (int i = original.length() - 1; i >= 0; i--) {
+            reverse = reverse + original.charAt(i);
+        }
+
+        // Compare original and reversed string
+        if (original.equals(reverse)) {
+            System.out.println(original + " is a Palindrome");
+        } else {
+            System.out.println(original + " is Not a Palindrome");
+        }
+>>>>>>> e9ac9b3290b8db18144521961bdc4c12bd6b1616
     }
 }

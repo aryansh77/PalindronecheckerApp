@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/App/App.iml" filepath="$PROJECT_DIR$/App/App.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/PalindroneCheckerApp.iml" filepath="$PROJECT_DIR$/.idea/PalindroneCheckerApp.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/PalindronecheckerApp.iml" filepath="$PROJECT_DIR$/.idea/PalindronecheckerApp.iml" />
+>>>>>>> e9ac9b3290b8db18144521961bdc4c12bd6b1616
     </modules>
   </component>
 </project>
